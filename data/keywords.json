@@ -1,0 +1,52 @@
+{
+    "программирование": [
+        "https://developer.mozilla.org/ru/docs/Web/JavaScript",
+        "https://ru.wikipedia.org/wiki/Программирование",
+        "https://habr.com/ru/ru/"
+    ],
+    "новости": [
+        "https://ria.ru/",
+        "https://tass.ru/",
+        "https://www.bbc.com/russian"
+    ],
+    "наука": [
+        "https://elementy.ru/",
+        "https://naukatehnika.com/",
+        "https://postnauka.ru/"
+    ],
+    "история": [
+        "https://ru.wikipedia.org/wiki/История",
+        "https://histrf.ru/",
+        "https://arzamas.academy/"
+    ],
+    "машины": [
+        "https://ru.wikipedia.org/wiki/Автомобиль",
+        "https://www.drive.ru/",
+        "https://auto.ru/",
+        "https://www.zr.ru/"
+    ],
+    "книги": [
+        "https://ru.wikipedia.org/wiki/Книга",
+        "https://www.litres.ru/",
+        "https://book24.ru/",
+        "https://fantlab.ru/"
+    ],
+    "политика": [
+        "https://ru.wikipedia.org/wiki/Политика",
+        "https://www.kremlin.ru/",
+        "https://duma.gov.ru/",
+        "https://www.vedomosti.ru/politics"
+    ],
+    "хобби": [
+        "https://ru.wikipedia.org/wiki/Хобби",
+        "https://hobby.ru/",
+        "https://www.livemaster.ru/",
+        "https://podelki.ru/"
+    ],
+    "одежда": [
+        "https://ru.wikipedia.org/wiki/Одежда",
+        "https://www.wildberries.ru/",
+        "https://www.ozon.ru/category/odezhda/",
+        "https://lamoda.ru/"
+    ]
+}

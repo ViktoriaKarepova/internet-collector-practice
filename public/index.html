@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сбор информации из интернета</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-globe"></i> Сбор информации из интернета</h1>
+        </header>
+
+        <main>
+            <section class="search-section">
+                <div class="input-group">
+                    <input type="text" id="keywordInput" placeholder="Введите ключевое слово...">
+                    <button id="searchBtn" class="btn-primary">
+                        <i class="fas fa-search"></i> Поиск
+                    </button>
+                </div>
+                <div class="popular-keywords">
+                    <span>Популярные:</span>
+                    <button class="keyword-chip" data-keyword="программирование">Программирование</button>
+                    <button class="keyword-chip" data-keyword="новости">Новости</button>
+                    <button class="keyword-chip" data-keyword="наука">Наука</button>
+                    <button class="keyword-chip" data-keyword="история">История</button>
+                    <button class="keyword-chip" data-keyword="машины">Машины</button>
+                    <button class="keyword-chip" data-keyword="книги">Книги</button>
+                    <button class="keyword-chip" data-keyword="политика">Политика</button>
+                    <button class="keyword-chip" data-keyword="хобби">Хобби</button>
+                    <button class="keyword-chip" data-keyword="одежда">Одежда</button>
+                </div>
+            </section>
+
+            <section class="results-section" id="resultsSection" style="display: none;">
+                <h2><i class="fas fa-link"></i> Найденные URL</h2>
+                <div id="urlList" class="url-list"></div>
+                <div id="downloadProgress" class="download-progress" style="display: none;">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                    </div>
+                    <div class="progress-info">
+                        <span id="progressText">Загрузка...</span>
+                        <span id="progressSize">0 MB</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="saved-section">
+                <h2><i class="fas fa-save"></i> Сохраненный контент</h2>
+                <div id="savedList" class="saved-list"></div>
+            </section>
+
+            <section class="content-viewer" id="contentViewer" style="display: none;">
+                <div class="viewer-header">
+                    <h3><i class="fas fa-file-alt"></i> Просмотр контента</h3>
+                    <button id="closeViewer" class="btn-close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div id="contentDisplay" class="content-display"></div>
+            </section>
+        </main>
+
+        <div id="notifications" class="notifications"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
